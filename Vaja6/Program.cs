@@ -2,7 +2,7 @@
 
 namespace vaja6 {
 
-    public enum Razred { Bojevnik, Carovnik, Menih, Tat };
+    public enum Poklic { Bojevnik, Carovnik, Menih, Tat, Lovec, Duhoven };
 
     class Igralec {
         public int id;
