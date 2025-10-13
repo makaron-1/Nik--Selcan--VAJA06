@@ -23,6 +23,34 @@ namespace vaja6 {
                 return id;
             }
         }
+
+        public string U_ime {
+            get
+            {
+                return u_ime;
+            }
+            set
+            {
+                u_ime = value.Trim();
+            }
+        }
+
+        public string U_geslo
+        {
+            get
+            {
+                return u_geslo;
+            }
+            set
+            {
+                u_geslo = value.Trim();
+            }
+        }
+
+        public static int StIg
+        {
+            get { return stIg; }
+        }
     }
     class vaja { 
         public static void main(String[] args)
