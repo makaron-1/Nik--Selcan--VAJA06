@@ -21,18 +21,18 @@ namespace vaja6 {
             get
             {
                 return id;
-            }
+            }//vrne id igralca
         }
 
         public string U_ime {
             get
             {
                 return u_ime;
-            }
+            }//vrne ime igralca
             set
             {
                 u_ime = value.Trim();
-            }
+            }//vrne skrajsano ime
         }
 
         public string U_geslo
@@ -45,12 +45,12 @@ namespace vaja6 {
             {
                 u_geslo = value.Trim();
             }
-        }
+        }//vrne geslo in ga skrajsa
 
         public static int StIg
         {
             get { return stIg; }
-        }
+        }//vrne stevilo igralca
     }
     class vaja { 
         public static void main(String[] args)
